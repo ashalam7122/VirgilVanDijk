@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <title>1stloveurself: Product Details</title>   
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="Styles.css">
+    </head>
+<body>
+    
+    <!--
+        1/ Create shop.html shop
+        2/ Add CSS styling
+    -->
+    <header>
+        <h1> 1stloveurself 	&#10083; </h1> 
+        <nav>
+        <ul>
+           <li><a href= "index.html">home</a></li>
+           <li><a href="">Shop</a></li>
+           <li><a href="./Contacts.html">Contact us</a></li> 
+           </ul>
+        </nav>
+        <input type="search" placeholder="search...">
+    </header>
+    
+    <aside>
+     <h2>Shop by:</h2>
+     <section>
+        <h3>Category</h3>
+        <hr>
+        <ul>
+            <li>All Items </li>
+           <li>Aria's hair collection </li> 
+           <li>Beanies</li>
+           <li>Hand Sanitizers Holder</li>
+           <li>Make up bags</li>
+           <li>Silk crunchies</li>
+           <li>Other</li>
+       </ul>
+     </section>
+
+       <section>
+        <h3>Price <span>($)</span></h3>
+        <hr>
+        <ul> 
+            <li>1-9</li>
+            <li>10-29</li>
+            <li>29-49</li>
+            <Li>50-79</Li>
+            <li>80-99</li>
+       </ul>
+       </section> 
+    </aside>
+    
+
+    <!-- Main Section to display products:-->
+    <main>
+     <h2>Contact US</h2>
+     
+        <form >
+
+            <div class="inline">
+               <label for="name">Name:</label> <input type="text" placeholder="enter your name" id="name" name="name">
+            </div>
+
+            <div class="inline">
+                <label for="email">Email: </label> <input type="email" placeholder="enter your email" id="email" name="email">
+            </div>
+
+            <div class="inline">
+                <label for="Message">Message: </label> <textarea cols="30" rows="5" id="Message" name="message"> </textarea>
+            </div>
+
+        <!-- <div>
+            <label for="subject">Subject: </labe>
+            <select id="subject">
+                <optgroup label="product issues">
+                    <option value="returns">Returns</option>
+                     <option value="faulty_item">Faulty Items</option>
+                </optgroup>
+                <optgroup label="delivery">
+                    <option value="delivery">Delivery Info</option>
+                    <option value="order_tracking">Order Tracking</option>
+                </optgroup>
+                <optgroup label="Other">
+                    <option value="advice">Advice</option>
+                    <option value="other">Other</option>
+                </optgroup>  
+            </select>
+        </div> -->
+
+        <div class="inline">
+            <label for="subject">Subject:</label>
+            <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
+            <datalist id="subjects">
+                <Option value="returns">
+                <Option value="fauly item">
+                <Option value="delivery">
+                <Option value="order Tracking">
+                <Option value="advice">
+                <Option value="other">        
+            </datalist>
+        </div>
+
+            <div>
+                <p>Subscribe to future offers by:</p>
+                <label for="newslletter">Newslletter</label>
+                <input type="checkbox" id="newsletter" name="Subscribe" value="newslletter">
+                <label for="email">Email</label>
+                <input type="checkbox" id="email"name="Subscribe" value="email">
+                <label for="post">Post</label>
+                <input type="checkbox" id="post"name="Subscribe" value="post">
+            </div> 
+
+        <div>
+            <p> How would you like us to respond?</p>
+            <label for="phoneresponse">Phone</label>
+            <input type="radio" id="phoneresponse" name="response" value="Phone">
+            <labe for="emailResponse">Email</labe>
+            <input type="radio" id="emailResponse" name="response" value="email">
+        </div>
+
+        <div>
+            <input type="submit">
+            <input type="reset">
+            <!-- <button type="submit">Send message</button> -->
+        </div>
+    </form>
+    
+    <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJWX8DLj4he0gRxCYOfHG_93E&key=AIzaSyAcGMLEIu41wFRHwUi3t-wVaF7MLF4Ht8A" allowfullscreen></iframe>
+    
+
+    </main>
+
+
+<footer>
+    <nav>
+     <ul>
+         <li><a href= "index.html">home</a></li>
+         <li><a href="">Shop</a></li>
+         <li><a href="./Contacts.html">Contact us</a></li> 
+     </ul>
+    </nav>
+</footer>
+
+</body>
+</html>
