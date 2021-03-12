@@ -72,3 +72,4 @@ document.getElementById('match').onclick = () => {
     }
 }
 
+?>/
