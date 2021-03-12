@@ -8,7 +8,17 @@
 </head>
 <body>
 
+  <p id="text"></p>
+
   <script>
+
+    var anonymousFunction = function () {
+      alert('Hi from function');
+      document.getElementById('text').innerHTML = 'Text from function';
+    }
+    
+    anonymousFunction();
+   
 
   </script>
   

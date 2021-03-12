@@ -7,6 +7,23 @@
   <title>Time to practice- Arrays</title>
 </head>
 <body>
+<!-- my own code! -->
+<div id="players"></div>
+  
+  <script>
+    var players =['MO Salah', 'Sadio Mane', 'Roberto Firmino', 'Jordan Henderson', 'Naby Keita', 'Thiago Alcantara', 'Curtis Jones', 'Andy Robertson', 'Joel matip', 'Virgil Van dijk', 'Trent Alexander Arnold', 'Alison Becker'];
+    var sortedPlayers = players.sort();
+
+    var sortNames = sortedPlayers.map(players => {
+      return 'Name:' + players;
+
+    })
+    document.getElementById('players').innerHTML = sortNames;
+
+  </script>
+<!--  -->
+<br>
+<br>
 
   <div id="characters"></div>
 
@@ -15,11 +32,16 @@
     // 1. Arrange elements into alphabetical order and store in a new variable
     // Hint - use array method .sort()
     var characters = ['Roger Rabbit', 'Jessica Rabbit', 'Daffy Duck', 'Bugs Bunny'];
+    var sortedCharacters = characters.sort();
 
     // 2. Return new array with each element having 'Name' prefix 
     // Eg. Name: Bugs Bunny, Name: Daffy Duck
+    var sortNames = sortedCharacters.map(character => {
+      return 'Name:' + character;   
+    })
+    document.getElementById('characters').innerHTML = sortNames;
 
-    
+  
   </script>
 </body>
 </html>

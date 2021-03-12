@@ -11,7 +11,18 @@
 
   <script>
 
+    function Character(first, last, color, image) {
+      this.firstName = first;
+      this.lastName = last;
+      this.color = color;
+      this.image = image;
+    };
+
+    var mickey = new Character('Mickey', 'Mouse', ['red', 'yellow', 'black'], 'mickey-mouse.png');
+    var Daffy = new Character('Daffy', 'duck', ['black', 'orange'], 'daffy-duck.png');
+    var bugs = new Character('Bugs', 'Bunny', ['grey', 'white'], 'bugs-bunny.png');
   
+  console.log(bugs.lastName);
   </script>
 </body>
 </html>
